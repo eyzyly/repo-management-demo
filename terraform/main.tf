@@ -52,6 +52,11 @@ locals {
       topics      = ["microservice", "order-processing"]
       template    = null
     },
+    "service-c" = {
+      description = "Microservice C for order returns"
+      topics      = ["microservice", "reverse-logistics"]
+      template    = null
+    },
     "frontend-app" = {
       description = "Main frontend application"
       topics      = ["frontend", "react"]
