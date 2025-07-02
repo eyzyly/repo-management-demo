@@ -47,7 +47,7 @@ locals {
       topics      = ["microservice", "customer-data"]
       template    = null
     },
-    "service-b" = {
+    "service-b2" = {
       description = "Microservice B for order processing"
       topics      = ["microservice", "order-processing"]
       template    = null
